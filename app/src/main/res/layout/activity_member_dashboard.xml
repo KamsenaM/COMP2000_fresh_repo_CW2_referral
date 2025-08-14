@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnCatalogue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/browse_catalogue"
+        android:layout_marginBottom="16dp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_profile"
+        android:layout_marginBottom="16dp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnNotificationSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notification_settings"
+        tools:ignore="VisualLintButtonSize" />
+</LinearLayout>

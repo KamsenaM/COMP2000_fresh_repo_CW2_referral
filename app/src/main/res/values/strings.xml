@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">LibraryManager</string>
+    <string name="book_details">Book Details</string>
+    <string name="book_title">Book Title</string>
+    <string name="book_requests">Book Requests</string>
+    <string name="pending_requests">Pending Requests</string>
+    <string name="browse_catalogue">Browse Catalogue</string>
+    <string name="search_by_title_or_author">Search by title or author</string>
+    <string name="filter_genre">Filter Genre</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_as_staff">Login as Staff</string>
+    <string name="login_as_member">Login as Member</string>
+    <string name="add_new_book">Add New Book</string>
+    <string name="manage_books">Manage Books</string>
+    <string name="books_list">Books List:</string>
+    <string name="manage_members">Manage Members</string>
+    <string name="add_member">Add Member</string>
+    <string name="members_list">Members List:</string>
+    <string name="my_profile">My Profile</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="email">Email</string>
+    <string name="my_profile_page">My Profile</string>
+    <string name="manage_members_staffdash">Manage Members</string>
+    <string name="manage_books_staffdash">Manage Books</string>
+    <string name="view_requests">View Requests</string>
+    <string name="request_book">Request Book</string>
+    <string name="author">Author:</string>
+    <string name="genre">Genre:</string>
+    <string name="add">Add</string>
+
+    <string name="book_author">Author: %1$s</string>
+    <string name="book_genre">Genre: %1$s</string>
+
+    <string name="request_sent">Request Sent</string>
+    <string name="book_request_success">Book \'%1$s\' requested successfully</string>
+    <string name="error_requesting_book">Error requesting book</string>
+
+    <string name="book_request_info">%1$s requested \'%2$s\'</string>
+    <string name="book_request_dates">From %1$s to %2$s</string>
+
+    <string name="approve">Approve</string>
+    <string name="deny">Deny</string>
+    <string name="placeholder_member">Member: John | Book: 1984</string>
+    <string name="book_list">Book List:</string>
+    <string name="example_book_entry_here">(Example book entry here…)</string>
+    <string name="save_preferences">Save Preferences</string>
+    <string name="receive_book_request_updates">Receive Book Request Updates</string>
+    <string name="receive_general_library_announcements">Receive General Library Announcements</string>
+    <string name="member_full_name">%1$s %2$s</string>
+
+    <string name="error_missing_book_or_user">Missing book or user data</string>
+    <string name="error_fetching_data">Error fetching data</string>
+    <string name="error_network">Network error, please try again</string>
+    <string name="requested_by_username">Requested by: %1$s</string>
+
+
+</resources>

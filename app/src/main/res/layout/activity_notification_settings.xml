@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/cbBookRequests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/receive_book_request_updates"/>
+
+    <CheckBox
+        android:id="@+id/cbLibraryAnnouncements"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/receive_general_library_announcements"/>
+
+    <Button
+        android:id="@+id/btnSavePrefs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_preferences"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

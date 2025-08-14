@@ -1,0 +1,18 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file
+local.properties
+
+# Log/IDE files
+.idea/
+*.iml
+
+# Android build outputs
+/app/build/
+captures/
+
+# Misc
+*.apk
+*.keystore

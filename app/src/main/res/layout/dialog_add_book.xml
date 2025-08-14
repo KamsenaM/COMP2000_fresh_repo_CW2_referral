@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/etBookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/book_title"
+        android:inputType="textCapWords|textPersonName"
+        android:autofillHints="bookTitle"
+        android:importantForAutofill="yes"
+        android:minHeight="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etBookAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/author"
+        android:inputType="textPersonName"
+        android:autofillHints="personName"
+        android:importantForAutofill="yes"
+        android:minHeight="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etBookGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/genre"
+        android:inputType="textCapWords|text"
+        android:autofillHints="genre"
+        android:importantForAutofill="yes"
+        android:minHeight="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnManageMembers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/manage_members_staffdash"
+        android:layout_marginBottom="16dp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnManageBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/manage_books_staffdash"
+        android:layout_marginBottom="16dp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnViewRequests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_requests"
+        tools:ignore="VisualLintButtonSize" />
+</LinearLayout>
